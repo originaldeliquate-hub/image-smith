@@ -1,0 +1,9 @@
+# Exclude build artifacts
+
+# Default behavior
+package-lock.json linguist-generated
+*.ts linguist-detectable
+*.json linguist-detectable=false
+*.tsx linguist-detectable
+public/**/*.html linguist-vendored
+*.woff binary
